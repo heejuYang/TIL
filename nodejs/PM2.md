@@ -8,5 +8,6 @@ pm2 start app.js
 
 pm2 monit
 
-pm2 start app.js --watch
+pm2 start app.js --watch << 실시간 코드 수정 반영
+
 pm2 log << 실시간 로그 확인가능
